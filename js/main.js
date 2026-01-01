@@ -1,5 +1,5 @@
 $(function(){
-    $('.cuenta-regresiva').countdown('2020/12/31 00:00:00', function(event){
+    $('.cuenta-regresiva').countdown('2026/01/26 00:00:00', function(event){
       $('#dias').html(event.strftime('%D'));
       $('#horas').html(event.strftime('%H'));
       $('#minutos').html(event.strftime('%M'));
